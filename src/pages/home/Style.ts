@@ -16,6 +16,7 @@ export const HomePage = styled.section<IHomePageProps>`
                 props.theme.colors.text : props.theme.colors.textDark : props.theme.colors.text};
     @media (max-width: 999px) {
         flex-direction: column;
+        text-align: center;
     }
     h1 {
         letter-spacing: 2px;
@@ -35,11 +36,9 @@ export const HomePage = styled.section<IHomePageProps>`
     p {
         margin-top: 20px;
         font-size: 20px;
-        width: 320px;
         margin-bottom: 20px;
         @media (max-width: 999px) {
             font-size: 15px;
-            width: 200px;
         }
     }
 
