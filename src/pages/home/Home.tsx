@@ -19,7 +19,7 @@ export default function Home(props: IHomeProps) {
             <div>
                 <p>Dev</p>
                 <h1>{"<Gabriel Moretto/>"}</h1>
-                <p>Full-stack developer</p>
+                <p>Software developer</p>
                 <a onClick={() => copyEmail("gabriel.moretto9090@gmail.com")}>Contact</a>
             </div>
             <img src="logo.png" draggable={false}></img>
