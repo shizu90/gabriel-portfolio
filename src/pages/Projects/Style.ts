@@ -18,7 +18,6 @@ export const ProjectsPage = styled.section<IProjectsPage>`
         flex-direction: column;
     }
     h1 {
-        font-size: 20px;
         letter-spacing: 1px;
         font-weight: 500;
     }
@@ -30,6 +29,8 @@ export const ProjectsPage = styled.section<IProjectsPage>`
             align-self: center;
             margin-bottom: 20px;
             padding-top: 30px;
+            font-weight: 400;
+            letter-spacing: 2px;
         }
         ul {
             list-style: none;
@@ -61,6 +62,7 @@ export const ProjectsPage = styled.section<IProjectsPage>`
                 padding: 10px;
                 h1 {
                     margin-bottom: 10px;
+                    font-size: 20px;
                 }
                 p {
 
@@ -101,6 +103,7 @@ export const ProjectsPage = styled.section<IProjectsPage>`
                 margin-top: 20px;
                 h1 {
                     margin-bottom: 10px;
+                    font-size: 20px;
                 }
                 p {
                     a {

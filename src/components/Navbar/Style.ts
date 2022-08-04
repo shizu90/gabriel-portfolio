@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 interface NavbarContainerProps {
     show?: boolean
+    color?: string | undefined
 }
 
 export const ShowNavbar = styled.span`
@@ -66,7 +67,10 @@ export const NavbarContainer = styled.div<NavbarContainerProps>`
             a {
                 display: flex;
                 text-decoration: none;
-                color: ${props => props.theme.colors.primary};
+                color: ${props => props.color ? props.color : ""};
+                @media (max-width: 999px) {
+                    color: ${props => props.theme.colors.text};
+                }
             }
             span {
                 opacity: 0;

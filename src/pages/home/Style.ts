@@ -57,7 +57,9 @@ export const HomePage = styled.section<IHomePageProps>`
     }
 
     img {
-        width: 200px;
+        width: 500px;
+        height: auto;
+        margin-left: 10%;
     }
     div:last-child {
         margin-left: 20px;

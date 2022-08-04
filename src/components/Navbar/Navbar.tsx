@@ -6,7 +6,7 @@ import { useState } from "react";
 import { ToastContainer } from "../../styles/ToastContainer";
 
 interface NavbarProps {
-
+    color?: string | undefined
 }
 
 export default function Navbar(props: NavbarProps) {
@@ -20,7 +20,7 @@ export default function Navbar(props: NavbarProps) {
 
     return (
         <>    
-            <NavbarContainer show={show}>
+            <NavbarContainer show={show} color={props.color}>
                 <ShowNavbar onClick={() => setShow(!show)} ><FaList/></ShowNavbar>
                 <div>
                     <img src="https://avatars.githubusercontent.com/u/85424804?s=400&u=4bf468d8b95bb61eeb78bc49e7f8ee6512248f51&v=4" draggable={false}></img>

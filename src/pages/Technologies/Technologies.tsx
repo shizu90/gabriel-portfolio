@@ -1,6 +1,5 @@
 import { TechnologiesPage } from "./Style";
 import { useContext, useEffect, useState } from "react";
-import { ScrollContext } from "../../context/ScrollContext";
 import StarRatingComponent from "react-star-rating-component";
 import theme from "../../styles/theme";
 
@@ -9,7 +8,6 @@ interface ITechnologiesProps {
 }
 
 export default function Technologies(props: ITechnologiesProps) {
-    const scrollContext = useContext(ScrollContext);
     const [tech, setTech] = useState({tech: "", experience: 0});
 
     const techsArray = ["Javascript", "Typescript", "HTML5", "CSS3", "ReactJS", "NextJS", "NodeJS", "C#", ".NET Core"];

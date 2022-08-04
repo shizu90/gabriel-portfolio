@@ -4,8 +4,7 @@ import { ThemeProvider } from 'styled-components';
 import theme from './styles/theme';
 import App from './App';
 import GlobalStyle from "./styles/global";
-import Navbar from './components/Navbar/Navbar';
-import ScrollProvider from './context/ScrollContext';
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -13,11 +12,10 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
-      <ScrollProvider>
-        <GlobalStyle/>
-        <Navbar></Navbar>
+      <GlobalStyle/>
+      <BrowserRouter>
         <App />
-      </ScrollProvider>
+      </BrowserRouter>
     </ThemeProvider>
   </React.StrictMode>
 );
