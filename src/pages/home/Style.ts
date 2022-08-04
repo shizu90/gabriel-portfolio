@@ -60,6 +60,11 @@ export const HomePage = styled.section<IHomePageProps>`
         width: 500px;
         height: auto;
         margin-left: 10%;
+        @media (max-width: 999px) {
+            width: 200px;
+            margin-left: 0;
+            margin-top: 17%;
+        }
     }
     div:last-child {
         margin-left: 20px;

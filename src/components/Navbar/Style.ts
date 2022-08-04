@@ -12,6 +12,7 @@ export const ShowNavbar = styled.span`
     right: 0;
     cursor: pointer;
     display: none;
+    color: ${props => props.theme.colors.primary};
     @media (max-width: 999px) {
         display: block;
     }
@@ -68,6 +69,7 @@ export const NavbarContainer = styled.div<NavbarContainerProps>`
                 display: flex;
                 text-decoration: none;
                 color: ${props => props.color ? props.color : ""};
+                cursor: pointer;
                 @media (max-width: 999px) {
                     color: ${props => props.theme.colors.text};
                 }
