@@ -29,7 +29,7 @@ export default function Courses(props: ICoursesProps) {
                     <img src="udemy.png" draggable={false}></img>
                     <div>
                         <h2>Udemy</h2>
-                        <p><span>Cod3r</span>: full-stack web development.</p>
+                        <p><span>Cod3r</span>: full-stack web development with JS.</p>
                         <p>102 hours</p>
                     </div>
                 </li>
@@ -37,8 +37,8 @@ export default function Courses(props: ICoursesProps) {
                     <img src="udemy.png" draggable={false}></img>
                     <div>
                         <h2>Udemy</h2>
-                        <p><span>Nélio Alves</span>: OOP with C#</p>
-                        <p>40 hours</p>
+                        <p><span>Nélio Alves</span>: OOP with Java, Spring, Hibernate...</p>
+                        <p>54 hours</p>
                     </div>
                 </li>
             </ul>

@@ -85,10 +85,10 @@ export const TechnologiesPage = styled.section<ITechnologiesPage>`
                 color: #34943c;
             }
             &:nth-child(8):hover {
-                color: #6f3494;
+                color: #d4810d;
             }
             &:nth-child(9):hover {
-                color: #6f3494;
+                color: #0a911c;
             }
         }
     }

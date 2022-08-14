@@ -10,7 +10,7 @@ interface ITechnologiesProps {
 export default function Technologies(props: ITechnologiesProps) {
     const [tech, setTech] = useState({tech: "", experience: 0});
 
-    const techsArray = ["Javascript", "Typescript", "HTML5", "CSS3", "ReactJS", "NextJS", "NodeJS", "C#", ".NET Core"];
+    const techsArray = ["Javascript", "Typescript", "HTML5", "CSS3", "ReactJS", "NextJS", "NodeJS", "Java", "Spring"];
     const iconsArray = [
         "devicon-javascript-plain", 
         "devicon-typescript-plain", 
@@ -19,10 +19,10 @@ export default function Technologies(props: ITechnologiesProps) {
         "devicon-react-original",
         "devicon-nextjs-original",
         "devicon-nodejs-plain",
-        "devicon-csharp-plain",
-        "devicon-dotnetcore-plain"
+        "devicon-java-plain",
+        "devicon-spring-plain"
     ];
-    const techsExperience = [4, 3, 4, 4, 3, 2, 3, 3, 2];
+    const techsExperience = [4, 4, 4, 4, 3, 3, 4, 3, 2];
 
     const changeTech = (techObj: any) => {
         if(tech.tech.length === 0 && tech.experience === 0) return setTech(techObj);
