@@ -41,10 +41,10 @@ export default function Projects(props: IProjectsProps) {
                 <ul>
                     <li>
                         <h1>Muramasa</h1>
-                        <p>Website that acts like an anime/manga database, fetching api from kitsu and bootstrapped with NextJS.</p>
+                        <p>Website that acts like an anime/manga database, fetching api from kitsu and bootstrapped with ReactJS and Spring boot.</p>
                         <div>
                             <a href="https://github.com/shizu90/muramasa-app" target={"_blank"}>Repository</a>
-                            <a>Website</a>
+                            <a href="https://muramasa-pofoyd38q-shizu90.vercel.app/">Website</a>
                         </div>
                     </li>
                     <li>
@@ -52,15 +52,13 @@ export default function Projects(props: IProjectsProps) {
                         <p>Project bootstrapped with Angular CLI and api made with NodeJS, integrating with PostgreSQL and MongoDB</p>
                         <div>
                             <a href="https://github.com/shizu90/cod3r-projeto" target={"_blank"}>Repository</a>
-                            <a>Website</a>
                         </div>
                     </li>
                     <li>
-                        <h1>ASP.NET CRUD</h1>
-                        <p>ASP.NET CRUD integrating with MySql and using MVC pattern.</p>
+                        <h1>Ecommerce api</h1>
+                        <p>Simple e-commerce api bootstrapped with spring boot.</p>
                         <div>
-                            <a href="https://github.com/shizu90/aspnet-mvc" target={"_blank"}>Repository</a>
-                            <a>Website</a>
+                            <a href="https://github.com/shizu90/ecommerce-api" target={"_blank"}>Repository</a>
                         </div>
                     </li>
                     <li>
@@ -68,7 +66,7 @@ export default function Projects(props: IProjectsProps) {
                         <p>Notepad CRUD integrating with firebase.</p>
                         <div>
                             <a href="https://github.com/shizu90/notepad-app" target={"_blank"}>Repository</a>
-                            <a>Website</a>
+                            <a href="https://notepad-375irzcp4-shizu90.vercel.app/">Website</a>
                         </div>
                     </li>
                 </ul>
