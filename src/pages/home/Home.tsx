@@ -22,7 +22,7 @@ export default function Home(props: IHomeProps) {
                 <p>Software developer</p>
                 <a onClick={() => copyEmail("gabriel.moretto9090@gmail.com")}>Contact</a>
             </div>
-            <img src="logo.png" draggable={false}></img>
+            <img src="homeIcon.svg" draggable={false}></img>
         </HomePage>
     )
 }
