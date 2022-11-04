@@ -48,10 +48,11 @@ export default function Projects(props: IProjectsProps) {
                         </div>
                     </li>
                     <li>
-                        <h1>Forum app</h1>
-                        <p>Project bootstrapped with Angular CLI and api made with NodeJS, integrating with PostgreSQL and MongoDB</p>
+                        <h1>Linktree clone</h1>
+                        <p>Project bootstrapped with ViteJS and api made with Spring Framework, integrating with PostgreSQL.</p>
                         <div>
                             <a href="https://github.com/shizu90/cod3r-projeto" target={"_blank"}>Repository</a>
+                            <a href="https://linktree-clone-blue.vercel.app/" target={"_blank"}>Website</a>
                         </div>
                     </li>
                     <li>
